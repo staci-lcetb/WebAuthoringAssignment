@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS-Cascading Style Sheets</title>
+	<style>
+		body{
+	background-color: #595959;
+	text-decoration-color: #121212;	
+		}
+
+	#wrapper{ 
+    width: 1500px;
+    background-color: #c5c5c5;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 0px;
+	border-radius: 25px;
+	}
+	
+	border {
+	border-style: solid;
+	border-width: medium;
+		}
+		
+	header {
+	border-color: black;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;		
+	height: 200px;
+	text: uppercase; 
+	}
+		
+	h1 {
+	font-size: 50px;
+	color: #595959;
+	}
+	
+	h2{
+	font-size: 40px;
+	color: #595959;
+		}
+	
+	h3 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-style: italic;
+	font-variant: small-caps;
+	font-weight: 200;
+	font-size: 5em;
+	text-decoration: inherit;
+	text-align: center;
+	line-height: normal;	
+		}
+	
+	a:link { 
+	text-decoration: none;
+	background-color: #ffc0cb;
+	border:thin solid;
+	border-color:#C71585;
+	width: 150%;
+	padding-right: 3px;
+	padding-left: 3px;
+	text-align: center;
+	color: #4B0082;
+	}
+	
+	
+	a:hover{
+	text-decoration: underline;
+	background-color:#D5D1D1;
+	border:thin solid;
+	border-color:#C71585;
+	width: 150%;
+	padding-right: 3px;
+	padding-left: 3px;
+	text-align: center;
+	color: #4B0082;
+	}
+	
+	a:visited{ 
+	text-decoration: none;
+	background-color: #ffc0cb;
+	border:thin solid;
+	border-color:#C71585;
+	width: 150%;
+	padding-right: 3px;
+	padding-left: 3px;
+	text-align: center;
+	color: #4B0082;
+	
+	}
+		
+	a:active {
+	text-decoration: none;
+	background-color: #ffc0cb;
+	border:thin solid;
+	border-color:#C71585;
+	width: 150%;
+	padding-right: 3px;
+	padding-left: 3px;
+	text-align: center;
+	color: #4B0082;
+		}
+		
+	nav {
+	background-color: #ddbbbb;
+	height: 140px;
+	border-style: inset;
+	border-color: black;
+	}
+
+	main {
+	background-color: #f8f8ff;
+	float:left;
+	width:50%;
+	margin-left:8px;
+	margin-right:8px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	border:solid;
+	border-color: #a9a9a9;
+	padding-top:2px;
+	padding-right:2px;
+	padding-bottom:0px;
+	padding-left: 2px;
+	}
+	
+	ul{
+	list-style:url("image/favicon-16x16.png");
+	margin-right: 25px;
+		}
+		
+	li {
+	background-color: #ffc0cb;	
+		}	
+		
+	aside {
+	float: left;
+	width: 45%;
+	background-color: #ffc0cb;
+	border-style: inset;
+	border-color: black;
+	padding-top: 25px;
+	margin-top: 80px;
+	margin-left: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		}
+	
+	section{
+	background-color: #a9a9a9;
+	border:dotted;
+	border-color:#C71585;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	
+		}
+			
+	footer {
+	clear:both;
+	height: 100px;
+	border:solid;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	background-image: url("polygons-abstract-background-mhdoyguhq3skloxt.jpg");
+	
+		}
+	
+	.stand-out-style{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: #2f2f2f;
+	color: #acacac;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding: 5px;
+	font-weight: 36px;
+	font:italic;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<div id="wrapper">
+<header>
+  <h1>CSS-Cascading Style Sheets</h1>
+</header>
+		
+	<nav> 
+	  <h2>The Navigation</h2>
+		<a href="Link1">Link1</a>
+	    <a href="Link2">Link2</a>	
+	    <a href="Link3">Link3</a>	
+		<a href="index.html">Homepage</a>
+	</nav>
+	
+	<main>
+	<h2>The Main</h2>
+	
+	<section>
+	  <h3>This is my H3 tag style</h3>
+	</section>
+	
+	<section>
+		<p class="stand-out-style">Stand-out-style applied in this paragraph. Stand-out-style applied here. Stand-out-style applied here.</p>	
+	</section>
+		
+	<section>
+	<ul>
+		<li>Apple</li>
+		<li>Orange</li>
+		<li>Grape</li>
+		<li>Plum</li>
+	</ul>			
+	</section>
+		
+	</main>
+		
+	<aside>
+	<h2>The Aside</h2>
+	<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, corporis, dolor sit at amet deserunt eaque expedita quas officiis reprehenderit saepe dolorem ut incidunt impedit, nostrum culpa ullam nesciunt quis?</p>
+	
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quam, voluptate eum, odit, ut minus accusantium ullam nemo rem repellendus placeat dolorum natus quas quia provident aliquid esse modi expedita!</p>
+	</aside>
+	<footer> 
+	  <h2>The Footer &copy;Staci Mulready 2025 
+      </h2>
+	</footer>
+	</div>
+</body>
+	
+</html>
+
